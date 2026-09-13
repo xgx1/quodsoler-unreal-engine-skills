@@ -3,10 +3,12 @@
 DSH 技能分组仓：**quodsoler-unreal-engine-skills**
 
 - **上游**：https://github.com/quodsoler/unreal-engine-skills
-- **说明**：本仓内容以本机实际使用的版本为准（可能已对上游做过改名/翻译/本机适配）。
-  上游只作祖先与对照——**不要用上游覆盖本地**（见 MyAI `docs/adr/0006`）。
+- **结构**：本仓的树 = **上游最新树**（2026-09-13 起对齐），上游的目录层级原样保留。
+  本地改动叠在对应文件上（改中文、平台分节、改 frontmatter 的 `name:` 等）——
+  `git diff upstream/main` 就是「本机改了什么」的权威答案。
+- **本文件**（`README.dsh-local.md`）是本地附加的说明，上游没有；上游的 `README.md` 原样保留。
 
-## 内容
+## 本机改写过的技能（24 个）
 
 - `unreal-actor-component-architecture`
 - `unreal-ai-navigation`
@@ -14,7 +16,6 @@ DSH 技能分组仓：**quodsoler-unreal-engine-skills**
 - `unreal-async-threading`
 - `unreal-audio-system`
 - `unreal-character-movement`
-- `unreal-common-ui`
 - `unreal-cpp-foundations`
 - `unreal-data-assets-tables`
 - `unreal-editor-tools`
@@ -32,11 +33,6 @@ DSH 技能分组仓：**quodsoler-unreal-engine-skills**
 - `unreal-serialization-savegames`
 - `unreal-state-trees`
 - `unreal-testing-debugging`
-- `unreal-umg-binding`
-- `unreal-umg-input`
-- `unreal-umg-lifecycle`
-- `unreal-umg-lists`
-- `unreal-umg-mvvm`
 - `unreal-world-level-streaming`
 
 由 `dsh-extensions/install-skill.sh` 软链进 `~/.dsh/skills/`。
