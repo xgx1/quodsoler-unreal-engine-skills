@@ -28,7 +28,6 @@ DSH 技能分组仓：**quodsoler-unreal-engine-skills**
 - `unreal-niagara-effects`
 - `unreal-physics-collision`
 - `unreal-procedural-generation`
-- `unreal-python`
 - `unreal-sequencer-cinematics`
 - `unreal-serialization-savegames`
 - `unreal-state-trees`

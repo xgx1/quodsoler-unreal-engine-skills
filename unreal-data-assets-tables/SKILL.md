@@ -499,6 +499,19 @@ Adding a column to an existing DataTable struct invalidates serialized row data 
 
 ---
 
+## Local Project Rule: never hardcode asset references
+
+Hardcoded asset paths (Blueprint classes, meshes, sounds, widget classes) in C++ are forbidden. Expose the reference through one of:
+
+- a Blueprint-configurable `UPROPERTY(EditAnywhere)` / `EditDefaultsOnly` reference,
+- a `UPrimaryDataAsset` or `UDataTable` entry configured in the editor,
+- a soft reference (`TSoftClassPtr` / `TSoftObjectPtr` / `FSoftObjectPath`) resolved asynchronously,
+- a Details-panel setting on the owning Blueprint.
+
+This keeps content swappable without a rebuild and keeps project-specific paths out of shared code.
+
+---
+
 ## Related Skills
 
 - `unreal-cpp-foundations` — UPROPERTY specifiers, USTRUCT, UObject lifecycle

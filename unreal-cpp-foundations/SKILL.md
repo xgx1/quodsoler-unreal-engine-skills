@@ -590,6 +590,13 @@ void AMyActor::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetime
 
 ---
 
+## Local Project Rules
+
+- **Verify an API exists before using it.** Check the engine headers or docs (or the engine source of the installed version) before writing the call — do not write an engine API from memory and hope it compiles.
+- **No Windows-only APIs in game code.** This project also builds and runs on Linux; anything Win32-flavoured (`windows.h`, `HWND`, registry access, `FWindowsPlatformMisc` specifics) does not belong in shared gameplay code. Platform-conditional code, if unavoidable, goes behind `#if PLATFORM_WINDOWS` with a working non-Windows branch.
+
+---
+
 ## Related Skills
 
 - **unreal-module-build** — Build.cs, module dependencies, include paths, PCH configuration
