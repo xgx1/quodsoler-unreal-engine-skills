@@ -1,6 +1,6 @@
 ---
 name: unreal-umg-lists
-description: UListView, UTileView, entry widget virtualization in Unreal UMG: list population, entry refresh, selection, scrolling, IUserObjectListEntry.
+description: 'UListView, UTileView, entry widget virtualization in Unreal UMG: list population, entry refresh, selection, scrolling, IUserObjectListEntry.'
 author: Sx
 version: 1.0.0
 keywords:

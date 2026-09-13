@@ -1,6 +1,6 @@
 ---
 name: unreal-input-system
-description: Enhanced Input, gameplay input mapping in Unreal: InputAction, InputMappingContext, triggers, modifiers, gamepad, keyboard, input binding setup.
+description: 'Enhanced Input, gameplay input mapping in Unreal: InputAction, InputMappingContext, triggers, modifiers, gamepad, keyboard, input binding setup.'
 author: Sx
 version: 1.0.0
 keywords:

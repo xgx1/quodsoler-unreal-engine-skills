@@ -1,6 +1,6 @@
 ---
 name: unreal-niagara-effects
-description: "Use this skill when working with Niagara particle systems, VFX, effects, emitter, Niagara component, or Niagara parameter in Unreal Engine C++.
+description: 'Use this skill when working with Niagara particle systems, VFX, effects, emitter, Niagara component, or Niagara parameter in Unreal Engine C++.'
 author: Sx
 version: 1.0.0
 keywords:

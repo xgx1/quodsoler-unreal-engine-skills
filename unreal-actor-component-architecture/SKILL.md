@@ -1,6 +1,6 @@
 ---
 name: unreal-actor-component-architecture
-description: Actor/component composition, lifecycle, spawning, attachment, composition-over-inheritance. Trigger: AActor/UActorComponent design or lifecycle bugs.
+description: 'Actor/component composition, lifecycle, spawning, attachment, composition-over-inheritance. Trigger: AActor/UActorComponent design or lifecycle bugs.'
 author: Sx
 version: 1.0.0
 keywords:

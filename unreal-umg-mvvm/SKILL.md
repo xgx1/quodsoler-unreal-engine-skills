@@ -1,6 +1,6 @@
 ---
 name: unreal-umg-mvvm
-description: UE5 MVVM and event-driven UI data flow for Unreal: ViewModels, FieldNotify, push-based refresh, separating gameplay state from widget state.
+description: 'UE5 MVVM and event-driven UI data flow for Unreal: ViewModels, FieldNotify, push-based refresh, separating gameplay state from widget state.'
 author: Sx
 version: 1.0.0
 keywords:

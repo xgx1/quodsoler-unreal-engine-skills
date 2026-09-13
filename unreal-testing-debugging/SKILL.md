@@ -1,6 +1,6 @@
 ---
 name: unreal-testing-debugging
-description: Unreal tests: UE_LOG, logging, log categories, assertion, check, ensure, verify, DrawDebug, debug draw, console command, profiling, Unreal Insights.
+description: 'Unreal tests: UE_LOG, logging, log categories, assertion, check, ensure, verify, DrawDebug, debug draw, console command, profiling, Unreal Insights.'
 author: Sx
 version: 1.0.0
 keywords:

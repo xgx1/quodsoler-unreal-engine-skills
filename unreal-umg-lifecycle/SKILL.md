@@ -1,6 +1,6 @@
 ---
 name: unreal-umg-lifecycle
-description: UUserWidget lifecycle: construction, teardown, viewport attachment, GC. Widget creation/removal/persistence, duplicate-instance bugs in Unreal UI.
+description: 'UUserWidget lifecycle: construction, teardown, viewport attachment, GC. Widget creation/removal/persistence, duplicate-instance bugs in Unreal UI.'
 author: Sx
 version: 1.0.0
 keywords:

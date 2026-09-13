@@ -1,6 +1,6 @@
 ---
 name: unreal-common-ui
-description: CommonUI and CommonInput for Unreal menus and gamepad-first flows: activatable widgets, button styles, screen stacks, back handling, input routing.
+description: 'CommonUI and CommonInput for Unreal menus and gamepad-first flows: activatable widgets, button styles, screen stacks, back handling, input routing.'
 author: Sx
 version: 1.0.0
 keywords:

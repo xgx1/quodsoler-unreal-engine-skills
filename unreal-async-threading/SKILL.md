@@ -1,6 +1,6 @@
 ---
 name: unreal-async-threading
-description: Unreal async tasks, threading, task systems, thread-safety: UE::Tasks, Async(), ParallelFor, futures, locks, game-thread ownership bugs.
+description: 'Unreal async tasks, threading, task systems, thread-safety: UE::Tasks, Async(), ParallelFor, futures, locks, game-thread ownership bugs.'
 author: Sx
 version: 1.0.0
 keywords:

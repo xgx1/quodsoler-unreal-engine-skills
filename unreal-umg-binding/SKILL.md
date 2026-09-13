@@ -1,6 +1,6 @@
 ---
 name: unreal-umg-binding
-description: BindWidget contracts between C++ and Widget Blueprints: name matching, optional/animation bindings, missing-control compile errors.
+description: 'BindWidget contracts between C++ and Widget Blueprints: name matching, optional/animation bindings, missing-control compile errors.'
 author: Sx
 version: 1.0.0
 keywords:

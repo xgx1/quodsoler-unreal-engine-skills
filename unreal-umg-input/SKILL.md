@@ -1,6 +1,6 @@
 ---
 name: unreal-umg-input
-description: UMG focus, cursor visibility, input-mode ownership: FInputMode setup, keyboard focus, game/UI transitions, non-CommonUI navigation bugs.
+description: 'UMG focus, cursor visibility, input-mode ownership: FInputMode setup, keyboard focus, game/UI transitions, non-CommonUI navigation bugs.'
 author: Sx
 version: 1.0.0
 keywords:
